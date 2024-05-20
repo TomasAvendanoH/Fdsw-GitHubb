@@ -24,7 +24,7 @@ body {
 
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  color: #175092;
 }
 
 @media (max-width: 768px) {
@@ -37,3 +37,22 @@ body {
   }
 
 }
+.row:hover{
+  border: 1px solid rgb(0, 225, 255);
+
+}
+
+.opcion:hover{
+  border: 1px solid rgb(0, 225, 255);
+
+}
+.card:hover{
+  border: 1px solid rgb(13, 18, 19);
+
+}
+
+.boton:hover{
+  border: 1px solid rgb(13, 18, 19);
+
+}
+
