@@ -37,3 +37,12 @@ body {
   }
 
 }
+.row:hover{
+  border: 1px solid rgb(0, 225, 255);
+
+}
+
+.opcion:hover{
+  border: 1px solid rgb(0, 225, 255);
+
+}
