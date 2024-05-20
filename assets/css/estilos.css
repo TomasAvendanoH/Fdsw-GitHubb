@@ -46,3 +46,13 @@ body {
   border: 1px solid rgb(0, 225, 255);
 
 }
+.card:hover{
+  border: 1px solid rgb(13, 18, 19);
+
+}
+
+.boton:hover{
+  border: 1px solid rgb(13, 18, 19);
+
+}
+
