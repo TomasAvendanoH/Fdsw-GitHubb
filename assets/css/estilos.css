@@ -12,7 +12,10 @@ body {
 }
 
 /* Mis trabajos */
+.bgvariation {
+  background-color: blueviolet;
 
+}
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
