@@ -2,6 +2,14 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.nav-item {
+  margin-left: 0.5em !important;
+}
+
+.nav-item:hover {
+  color: #fcfcfc;
+}
+
 /* Hero Section */
 
 #Hero-Section {
