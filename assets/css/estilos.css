@@ -11,6 +11,10 @@ body {
   background-position: left;
 }
 
+.brand-icon {
+  width: 3rem;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
