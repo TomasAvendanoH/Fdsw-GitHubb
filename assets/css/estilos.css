@@ -2,6 +2,18 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.nav-link{
+  transition: transform 0.3s ease-in-out;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+.nav-link:hover{
+  transform: scale(1.1);
+  background-color:rgb(72, 218, 218);
+  color: #000 !important;
+}
+
 /* Hero Section */
 
 #Hero-Section {
