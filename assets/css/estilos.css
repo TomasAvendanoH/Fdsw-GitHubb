@@ -12,6 +12,10 @@ body {
   
 }
 
+.container {
+  color: blue;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
