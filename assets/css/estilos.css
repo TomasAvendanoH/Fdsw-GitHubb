@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 /* Hero Section */
@@ -36,4 +36,8 @@ body {
     width: 100px;
   }
 
+  .custom-container {
+    max-width: 1200px;
+    margin: auto;
+  }
 }
