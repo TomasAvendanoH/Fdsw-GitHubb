@@ -1,16 +1,37 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:black;
+  
+}
+.colortext{
+  color: rgb(246, 250, 248);
+  font-size: 30px;
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  background-image: url("../img/gala3.jpg");
+  background-repeat:repeat-x;
+  background-size: 20%;
+  background-position: 0%;
+}
+#custom-container {
+  background-image: url("../img/A7.png");
+  background-repeat:repeat-x;
+  background-size: 20%;
+  background-position: 0%;
+  
 }
 
+.textl{
+  font-size: calc(0.60rem + 1.0vw);
+  background-color:black;
+}
+
+#Acerca-de-mi{
+  background-color: rgb(213, 101, 239);
+}
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
@@ -36,8 +57,5 @@ body {
     width: 100px;
   }
 
-  .custom-container {
-    max-width: 1200px;
-    margin: auto;
-  }
+ 
 }
