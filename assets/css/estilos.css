@@ -42,33 +42,35 @@ body {
 }
 
 #Acerca-de-mi{
-  background: linear-gradient(to bottom , #676668,#676668, rgb(15, 2, 92) );
+  background: linear-gradient(to bottom , #1c0237,#48068a, rgb(127, 42, 237));
   color: azure;
 }
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
-  height: 250px;
+  height: 250px;;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.card-body{
+  background:fixed white;
+  color: rgb(0, 10, 10);
+}
+
+.estudio{
+  background: radial-gradient(circle, rgb(25, 97, 211), rgb(0, 0, 8));
+  
+}
+
 /* Contacto */
 
-#Contacto form label {
+#Contacto {
   font-weight: 700;
-  color: #373a3c;
+  color: #f1f6f9;
+  background:linear-gradient(to right, rgb(24, 3, 120), rgb(0, 0, 1),black, rgb(57, 5, 106));
 }
 
-@media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
-  }
 
-  .navbar-brand{
-    width: 100px;
-  }
-
- 
-}
