@@ -1,39 +1,76 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:aliceblue;
+  
+}
+.colortext{
+  color: azure;
+  font-size: 30px;
 }
 
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  background-image: url("../img/gala3.jpg");
+  background-repeat:repeat-x;
+  background-size: 20%;
+  background-position: 0%;
+}
+#custom-container {
+  background-image: url("../img/A1.png");
+  background-repeat:no-repeat;
+  background-size: 50%;
+  background-position: 0%;
+  margin-left: 35%;
+  
+}
+.gradient-bg {
+  height: auto; /* Ajusta la altura según necesites */
+  background: linear-gradient(to bottom ,black,rgb(17, 16, 16), #1e1d1e); /* Degradado de colores */
+}
+
+.textl{
+  font-size: calc(0.60rem + 1.0vw);
+  background-color:black;
+}
+#gala8{
+  background-image: url("../img/gala8.png");
+  background-repeat:no-repeat;
+  background-size: 40%;
+  background-position: 100%;
+  padding-top: 2%;
+}
+
+#Acerca-de-mi{
+  background: linear-gradient(to bottom , #1c0237,#48068a, rgb(127, 42, 237));
+  color: azure;
 }
 
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
-  height: 250px;
+  height: 250px;;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.card-body{
+  background:fixed white;
+  color: rgb(0, 10, 10);
+}
+
+.estudio{
+  background: radial-gradient(circle, rgb(25, 97, 211), rgb(0, 0, 8));
+  
+}
+
 /* Contacto */
 
-#Contacto form label {
+#Contacto {
   font-weight: 700;
-  color: #373a3c;
+  color: #f1f6f9;
+  background:linear-gradient(to right, rgb(24, 3, 120), rgb(0, 0, 1),black, rgb(57, 5, 106));
 }
 
-@media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
-  }
 
-  .navbar-brand{
-    width: 100px;
-  }
-
-}
