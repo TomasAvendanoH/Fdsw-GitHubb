@@ -16,8 +16,7 @@ body {
   background-image: url("../img/hero-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
-  height: auto;
+  background-position: center;
 }
 
 /* Mis trabajos */
