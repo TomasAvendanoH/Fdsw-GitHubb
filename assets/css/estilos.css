@@ -2,13 +2,22 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* navbar */
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/hero-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  height: auto;
 }
 
 /* Mis trabajos */
