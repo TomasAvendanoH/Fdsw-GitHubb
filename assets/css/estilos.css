@@ -2,22 +2,35 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* navbar */
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+
+
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/hero-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: center;
 }
 
 /* Mis trabajos */
 
+.card {
+  height: 100%;
+}
+
 #Mis-trabajos .image-top {
-  height: 250px;
+  height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  object-fit: cover;
 }
 
 /* Contacto */
