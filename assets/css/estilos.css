@@ -50,3 +50,10 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
 }
+footer {
+  font-size: 1rem;
+}
+
+footer a:hover {
+  color: #17a2b8;
+}
